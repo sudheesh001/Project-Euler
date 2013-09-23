@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 typedef unsigned long long LL;
-LL reverse(LL x){
+LL reverse(LL x)
+{
 	LL r;
 	for(r = 0; x; r = r * 10 + x % 10, x /= 10);
 	return r;
